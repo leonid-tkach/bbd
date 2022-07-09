@@ -1,0 +1,30 @@
+body {
+  background-color: DimGrey !important;
+}
+
+.well {
+  background-color: DimGrey !important;
+  color: White !important;
+}
+
+.id-select {
+  background-color: DimGrey !important;
+  color: White !important;
+}
+
+.panel {
+  background-color: DimGrey !important;
+  color: White !important;
+}
+
+.panel-heading {
+  background-color: DimGrey !important;
+  color: White !important;
+}
+
+.jumbotron {
+  background-image: url("../../images/screenshot.png");
+  background-size: 100% 100%;
+  text-align: center;
+  background-size: cover;
+}
