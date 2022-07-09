@@ -82,7 +82,7 @@ function buildCharts(sample) {
     });
     bar_seq = bar_seq.slice(0, 10).reverse()
     console.log(bar_seq)
-    var yticks = bar_seq.map(row => ("OTU " + row[0]))
+    var yticks = bar_seq.map(row => ("OTU " + row[0] + " "))
 
     // 8. Create the trace for the bar chart. 
     var barData = [{
@@ -96,7 +96,7 @@ function buildCharts(sample) {
     var barLayout = {
       title: "Top 10 Bacteria Cultures Found",
       margin: {
-        l: 80,
+        l: 70,
         r: 20,
         t: 50,
         b: 50       
